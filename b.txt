@@ -1,0 +1,37 @@
+
+echo "generate 10 RANDOM 3 digit numbers"
+
+a=$((RANDOM%10+100));
+echo "$a"
+read -n $a;
+b=$((RANDOM%10+100));
+echo "$b"
+read -n $b;
+c=$((RANDOM%10+100));
+echo "$c"
+read -n $c;
+d=$((RANDOM%10+100));
+echo "$d"
+read -n $d;
+e=$((RANDOM%10+100));
+echo "$e"
+read -n $e;
+f=$((RANDOM%10+100));
+echo "$f"
+read -n $f;
+g=$((RANDOM%10+100));
+echo "$g"
+read -n $g;
+h=$((RANDOM%10+100));
+echo "$h"
+read -n $h;
+i=$((RANDOM%10+100));
+echo "$i"
+read -n $a;
+j=$((RANDOM%10+100));
+echo "$j"
+read -n $j;
+
+arr=($a,$b,$c,$d,$e,$f,$g,$h,$i,$j)
+echo "$arr"
+
